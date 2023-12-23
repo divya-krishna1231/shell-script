@@ -1,4 +1,6 @@
 #!bin/bash
+PERSON1=Ravi
+PERSON2=Divya
 
-echo "Ravi:: Hi divya goodmorning"
-echo "Divya:: goodmorning ravi"
+echo "$PERSON1:: Hi $PERSON1 goodmorning"
+echo "$PERSON2:: goodmorning $PERSON1"
