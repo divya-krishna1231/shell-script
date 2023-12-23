@@ -1,0 +1,6 @@
+#!/bin/bash
+
+FRUITS=("litchyee" "persimmon" "melons")
+echo "First value : ${FRUITS[0]}"
+echo "2nd value : ${FRUITS[1]}"
+echo "3rd value : ${FRUITS[2]}"
