@@ -6,3 +6,4 @@ PERSON3=$3
 echo "$PERSON1:: Hi $PERSON1 goodmorning"
 echo "$PERSON2:: goodmorning $PERSON1"
 echo "$PERSON3:: $PERSON3 physcial ga mental ha strainuu "
+echo "$4:: vasthava raaava $4  "
