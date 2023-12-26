@@ -8,3 +8,4 @@ echo "ERROR:: please run this script with root access"
 else
 echo "yoy are root user"
 fi
+yum install mysql -y
