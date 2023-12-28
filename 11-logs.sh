@@ -1,8 +1,10 @@
 #!/bin/bash
+
 ID=$(id -u)
+TIMESTAMP=$(date +%F-%H-%M-%S)
 
+LOGFILE="/tmp/$0-$TIMESTAMP.log"
 
-echo "script name : $0"
 VALIDATE(){
     if [$1 -ne 0]
    then
@@ -21,10 +23,10 @@ else
      echo "yoy are root user"
 fi
  
-yum install mysql -y
+yum install mysql -y &>> $LOGFILE
   
 VALIDATE $? "Installing MySQL"
 
-yum install git -y
+yum install git -y &>> $LOGFILE
 
 VALIDATE $? " Installing GIT"
