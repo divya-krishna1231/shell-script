@@ -9,4 +9,4 @@ else
      echo "yoy are root user"
 fi
 
-echo "All arguments passed : $@"
+echo "All arguments passed : $@ "
